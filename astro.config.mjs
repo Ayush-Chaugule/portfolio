@@ -2,10 +2,9 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://ayush-chaugule.github.io", 
-  base: "/portfolio", 
+  site: "https://ayushchaugule.online", // your custom domain
+  base: "/", // no subpath anymore
   vite: {
     plugins: [tailwindcss()],
   },
