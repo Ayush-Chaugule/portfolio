@@ -3,8 +3,8 @@ import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
-  site: "https://ayush-chaugule.github.io",
-  base: "/portfolio",
+  site: "https://ayushchaugule.online",
+  base: "/", // since it's now at root of your domain
   vite: {
     plugins: [tailwindcss()],
   },
